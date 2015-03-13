@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+use Test::More;
+
+use Test::Covers qw( Foo );
+
+use Foo;
+use Bar;
+
+pass('stuff');
+
+done_testing();
